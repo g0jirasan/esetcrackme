@@ -9,7 +9,6 @@ def random_char():
 
 def first():
 		
-	final_value = 0
 	while True:
 		a = random_char()
 		b = random_char()
@@ -21,7 +20,6 @@ def first():
 
 def second():
 	
-	final_value = 0
 	while True:
 		a = random_char()
 		b = random_char()
@@ -33,7 +31,6 @@ def second():
 		
 def third():
 
-	final_value = 0
 	while True:
 		a = random_char()
 		value = a + 205
@@ -42,8 +39,7 @@ def third():
 			break
 		
 def fourth():
-
-	final_value = 0
+	
 	while True:
 		a = random_char()
 		b = random_char()
@@ -56,8 +52,7 @@ def fourth():
 			break 
  				
 def fifth():
-
-	final_value = 0
+	
 	while True:
 		a = random_char()
 		b = random_char()
@@ -69,7 +64,6 @@ def fifth():
 
 def sixth():
 	
-	final_value = 0
 	while True:
 		a = random_char()
 		value = password[0] + password[1] + a + password[3] + password[4] + password[5] + password[6] + password[7] + password[8] + password[9]
