@@ -79,19 +79,23 @@ def pr_pass():
 	print str1
 
 
-password = [0] * 10
-count = 0
+def main():
 
-while count < 10:
+	count = 0
 
-	first()
- 	second()
-	third()
-	fourth()
-	fifth()
-	sixth()
-	pr_pass()
-	count += 1
+	while count < 10:
+		first()
+ 		second()
+		third()
+		fourth()
+		fifth()
+		sixth()
+		pr_pass()
+		count += 1
+
+if __name__ == '__main__':
+	password = [0] * 10
+	main() 
 
 	
 	
