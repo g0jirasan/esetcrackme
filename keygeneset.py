@@ -82,7 +82,6 @@ def pr_pass():
 def main():
 
 	count = 0
-
 	while count < 10:
 		first()
  		second()
