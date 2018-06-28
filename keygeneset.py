@@ -66,8 +66,7 @@ def sixth():
 	
 	while True:
 		a = random_char()
-		# Only way I could get password[] to add properly.  
-		value = password[0] + password[1] + a + password[3] + password[4] + password[5] + password[6] + password[7] + password[8] + password[9]
+		value = sum(password[:2]) + a + sum(password[-7:])
 		if value == 923:
 			password[2] = a
 			break 
